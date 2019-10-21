@@ -1,0 +1,5 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+Ao iniciar um repositório utilizando git init, um arquivo .git é adicionado ao diretório do repositório e nenhum commit é feito. Pode ser necessário fazer um repositório para realizar o controle de versão dos arquivos daquele diretório.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+A área de preparação é onde se localizam os arquivos que farão parte do próximo commit. Ela contém arquivos do diretório a que se refere o repositório, mas contém apenas os arquivos selecionados para o próximo commit, não necessariamente todos aqueles que fazem parte do repositório ou do diretório. Ela é bastante útil no sentido de permitir que apenas alguns arquivos façam parte do commit, possibilitando que cada um destes tenha apenas um alteração lógica, como recomendado.
