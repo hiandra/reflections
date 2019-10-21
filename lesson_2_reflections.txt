@@ -3,3 +3,12 @@ Ao iniciar um repositório utilizando git init, um arquivo .git é adicionado ao
 
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 A área de preparação é onde se localizam os arquivos que farão parte do próximo commit. Ela contém arquivos do diretório a que se refere o repositório, mas contém apenas os arquivos selecionados para o próximo commit, não necessariamente todos aqueles que fazem parte do repositório ou do diretório. Ela é bastante útil no sentido de permitir que apenas alguns arquivos façam parte do commit, possibilitando que cada um destes tenha apenas um alteração lógica, como recomendado.
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Pode-se utilizar a área de preparação para selecionar os arquivos que se deseja adicionar ao commit. Dessa forma, não é necessário adicionar todos os arquivos que forma alterados do diretório ao commit, o que tornaria mais difícil identificar as alterações em verificações posteriores.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Branches são labels para os commits e algumas situações em que seria útil utilizá-los são quando, por exemplo, deseja-se adicionar uma função experimental que ainda não se sabe se vai funcionar ou quando se deseja fazer uma versão em outro idioma do projeto, enquanto a versão com o idioma original é mantida intacta. Os branches ajudariam porque cada um deles estabelece uma bifurcação na linha de desenvolvimento do projeto, permitindo que sejam feitas alterações sem alterar  versão definitiva, que seria a do branch master.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Os diagramas ajudam a visualizar a estrutura de branches porque apresentam visualmente os commits relacionados aos seus pais, assim como as bifurcações que dão origem aos branches.
