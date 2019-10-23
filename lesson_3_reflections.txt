@@ -1,0 +1,2 @@
+Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+Usar um repositório remoto é mais interessante do que manter o trabalho local quando são feitas alterações pelo mesmo usuário através de diferentes computadores e quando há mais de um colaborador no projeto, de forma que podem ser feitas as alterações de forma local e atualizar o projeto no repositório remoto após realizá-las.
