@@ -15,3 +15,6 @@ Os diagramas ajudam a visualizar a estrutura de branches porque apresentam visua
 
 Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
 O resultado da mesclagem de dois branches é um único branch que contém os commits dos branches mesclados, além de um novo commit que indica que houve a mesclagem. O resultado da mesclagem é representado no diagrama como o encontro de uma bifurcação porque o novo commit possui dois commits pais, sendo seu label atribuído como o do branch que se encontra em checkout.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Os prós da mesclagem automática do Git com relação à mesclagem manual consistem em não gastar tempo adicional quando não há conflito entre os códigos a serem mesclados e que são adicionados sinais ao código que indicam os códigos conflitantes dos branches mesclados e o que faz parte da origem comum aos dois. Já os contras consistem em que a mesclagem automática não é independente da manual quando ocorrem alterações na mesma parte do código em ambos os branches a serem mesclados, o que leva à necessidade da mesclagem manual.
