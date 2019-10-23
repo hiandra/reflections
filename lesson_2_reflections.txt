@@ -12,3 +12,6 @@ Branches são labels para os commits e algumas situações em que seria útil ut
 
 Como os diagramas ajudam a visualizar a estrutura de branches?
 Os diagramas ajudam a visualizar a estrutura de branches porque apresentam visualmente os commits relacionados aos seus pais, assim como as bifurcações que dão origem aos branches.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+O resultado da mesclagem de dois branches é um único branch que contém os commits dos branches mesclados, além de um novo commit que indica que houve a mesclagem. O resultado da mesclagem é representado no diagrama como o encontro de uma bifurcação porque o novo commit possui dois commits pais, sendo seu label atribuído como o do branch que se encontra em checkout.
