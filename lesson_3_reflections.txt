@@ -9,3 +9,6 @@ Bifurcações (Forks) são cópias de repositórios de outras pessoas diretament
 
 Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
 O benefício de ter uma cópia do última estado conhecido do remoto armazanado localmente é que se o desenvolvedor for ficar offline por um tempo poderá atualizar a cópia local logo antes de ficar offline e depois terá acesso a qualquer atualização que tenha sido feita no remoto desde que atualizou pela última vez. Além disso, após realizar a cópia pode-se usar os comandos git log e git diff para verificar as diferenças entre os branchs remoto e local, o que facilita um merge posterior.
+
+Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+Eu colaboraria sem usar Git ou Github usando, por exemplo, Dropbox. Seria mais difícil acompanhar as novas atualizações dos arquivos, como verificar as mudanças e evitar perdas de versões sobrescrevendo arquivos. Seria mais fácil a parte inicial do uso, que com o Git é necessário aprender o seu funcionamento, já o droppbox não oferece tantas funcionalidades, deixando-o intuitivo.
