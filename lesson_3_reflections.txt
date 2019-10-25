@@ -12,3 +12,6 @@ O benefício de ter uma cópia do última estado conhecido do remoto armazanado 
 
 Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
 Eu colaboraria sem usar Git ou Github usando, por exemplo, Dropbox. Seria mais difícil acompanhar as novas atualizações dos arquivos, como verificar as mudanças e evitar perdas de versões sobrescrevendo arquivos. Seria mais fácil a parte inicial do uso, que com o Git é necessário aprender o seu funcionamento, já o droppbox não oferece tantas funcionalidades, deixando-o intuitivo.
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+É mais interessante fazer alterações em um branch separado e não diretamente no master quando o projeto é colaborativo e deseja-se adicionar ou alterar determinada informação presente em algum dos arquivos. Nesse caso, não seria interessante alterar o master, porque os demais colaboradores nem saberiam que ocorreu a alteração. Assim, criando um novo branch e depois realizando o pull request, os demais podem verificar a alteração, adicionar comentários e aceitar ou não as mudanças. Já alterando diretamente o master, o fluxo de trabalho é mais simples, pois não há necessidade de pull request, mas o trabalho colaborativo pode ser conflituoso e confuso.
